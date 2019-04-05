@@ -1,0 +1,14 @@
+month<-readline(prompt="Enter Month")
+data<-read.csv("medication.excel.csv")
+dis<-data$Diseases
+dat<-data$Date..MM.DD.YYYY.
+mon<-month(as.POSIXlt(dat,format="%m/%d/%Y"))
+dis<-data.frame(dis)
+mon<-data.frame(mon)
+cmd<-data.frame(dis,mon)
+occur<-table(cmd$dis,cmd$mon)
+occur<-data.frame(occur)
+o<-occur[occur$Freq>0,]
+n<-o[o$Var2==month,]
+table(n$Var1)
+View(n$Var1)

@@ -9,7 +9,7 @@
 
 ### Prerequisites
 
-'''
+```
 Memory(RAM) 4GB
 
 Processors(CPU Cores) 4
@@ -18,13 +18,13 @@ minSdkVersion 15
 
 Jdk 1.8
 
-'''
+```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-'''
+```
 
 It is important to note that this repository is large and can take a long time and use a lot of space to download. If you would like to save time and space, there are some options that you can choose to download only the most current version of the Android project folder:
 
@@ -37,20 +37,20 @@ You can also download the project folder (as a .zip or .tar.gz archive file) fro
 
 Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the folder ("Import project (Eclipse ADT, Gradle, etc.)").
 
-'''
+```
 
 ## Deployment
 
 ##### Firstly Build the Gradle and run the Application on Android Studio then it will ask for the permission from the user to install the apk and then it works like an app. 
 
 ## Built With
-'''
+```
 Android Studio and its Emulator.
 
 FireBase realtime database
 
 RStudio
-'''
+```
  ## Contributing
  
  #### Please read details for the process for submitting pull requests to us.

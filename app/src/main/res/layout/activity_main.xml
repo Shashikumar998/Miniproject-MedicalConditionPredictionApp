@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nameview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/stdwallpaper"
     android:weightSum="10"
     tools:context=".MainActivity">
@@ -67,8 +65,10 @@
             android:layout_height="match_parent"
             android:textColor="@color/common_google_signin_btn_text_dark_focused"
             android:textSize="30sp" />
-    </LinearLayout>
 
+
+        />
+    </LinearLayout>
 
 
 </LinearLayout>

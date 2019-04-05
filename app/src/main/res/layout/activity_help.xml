@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:text="HELP"
+        android:textColor="#006400"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffffff"
+        android:text="MedCaution"
+        android:textColor="#ff8c00"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="**How to use this App?**"
+        android:layout_marginLeft="55dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="1.Allow location access."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.For information go to About."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Click Start to enter into the app."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Get current Location."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Move to Predict page."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.Choose a month."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.Click to predict."
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU !"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</LinearLayout>

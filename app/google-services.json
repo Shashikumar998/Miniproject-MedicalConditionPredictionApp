@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "465132666455",
+    "firebase_url": "https://mymed-94eed.firebaseio.com",
+    "project_id": "mymed-94eed",
+    "storage_bucket": "mymed-94eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465132666455:android:d00a8766109734cb",
+        "android_client_info": {
+          "package_name": "com.example.mymed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465132666455-0l55e0sualhs9qug4adsl1qrqq5pp7m6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mymed",
+            "certificate_hash": "62f4e30ad285bda8a385a8dcd04a3d2f1f79a8ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYtOY9JvOM58S2_J8fMNYMu6kxf9gxHKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465132666455-k0e7f5kkd256ib9jcomh9u62uh429d17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

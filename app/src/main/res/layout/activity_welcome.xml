@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@drawable/logo2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+
+    <TextView
+        android:id="@+id/tv_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:text="MedCaution"
+        android:textStyle="italic"
+        android:textColor="#006400"
+        android:textSize="45sp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME !"
+        android:textSize="35dp"
+        android:textColor="#006400"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="START"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="15sp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="-100dp"
+        android:background="#ffffff"
+        android:text="About Us "
+        android:textColor="@android:color/holo_blue_dark"/>
+    <Button
+        android:id="@+id/start_help_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="15sp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="110dp"
+        android:background="#ffffff"
+        android:text="Help"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+
+</LinearLayout>
